@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "author": "miladyyyy <119839992+miladyyyy@users.noreply.github.com>",
+  "scripts": {
+    "build": "max build",
+    "dev": "max dev",
+    "format": "prettier --cache --write .",
+    "postinstall": "max setup",
+    "prepare": "husky",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.4.0",
+    "@ant-design/pro-components": "^2.7.15",
+    "@umijs/max": "^4.3.14",
+    "antd": "^5.20.2",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^9",
+    "lint-staged": "^13.2.0",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.0.3"
+  }
+}
